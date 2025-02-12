@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "Young Serif";
+  src: url("assets/fonts/young-serif/YoungSerif-Regular.ttf");
+}
+
+@font-face {
+  font-family: "outfit";
+  src: url("assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
+}
+
+body {
+  background-color: hsl(30, 54%, 90%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  font-size: 9px;
+}
+h3,
+h4 {
+  font-family: "Young Serif", "Courier New", Courier, monospace;
+  color: hsl(14, 45%, 36%);
+  
+}
+
+.container {
+font-family: "outfit", "Courier New", Courier, monospace;
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(0, 0%, 100%);
+  max-width: 375px;
+  width: 100%;
+  padding: 24px;
+  border-radius: 12px;
+  color: hsl(24, 5%, 18%);
+  font-weight: 400;
+}
+img {
+  border-radius: 12px;
+}
+.overview {
+  background-color: hsl(330, 100%, 98%);
+  padding-left:16px;
+  padding-right:16px;
+  border-radius: 12px;
+}
+#overviewTitle {
+  font-family: "outfit", "Courier New", Courier, monospace;
+
+  color: hsl(332, 51%, 32%);
+}
+
+ol li::marker {
+  color: hsl(332, 51%, 32%);
+  font-weight: bolder;
+}
+ul li::marker {
+  color: hsl(332, 51%, 32%);
+  font-size: 0.6em;
+  font-weight: bolder;
+
+  /* padding: 20px; */
+}
+
+table {
+  width: 100%; /* Ajuste la largeur selon tes besoins */
+  border-collapse: collapse; /* Fusionne les bordures pour un rendu propre */
+}
+
+th,
+td {
+  padding: 10px; /* Ajoute de l'espace pour une meilleure lisibilité */
+  text-align: left; /* Aligne le texte à gauche (ajuste si nécessaire) */
+}
+
+tr {
+  border-bottom: 1px solid #ccc; /* Ajoute une bordure uniquement sous chaque ligne */
+}
+
+tr:last-child {
+  border-bottom: none; /* Supprime la bordure sous la dernière ligne */
+}
