@@ -82,3 +82,5 @@ tr {
 tr:last-child {
   border-bottom: none; /* Supprime la bordure sous la dernière ligne */
 }
+li + li { margin-top: 1em; }
+
